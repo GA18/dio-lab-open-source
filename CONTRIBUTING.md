@@ -77,7 +77,7 @@ Atente-se para a seguir as orientações para a contribuição, principalmente:
 Após criar o seu Pull Request, nossa automação irá validar a sua submissão. Caso esteja tudo certo, será retornada uma mensagem indicado que seu PR foi aprovado. Do contrário, leia atentamente as orientações e verifique os arquivos modificados para saber se atende as instruções para contribuição.
     
     
-## Convenção de Commits 
+## Convenção de Commits
 
 | Tipo de Commit |Descrição                                                            | Exemplo
 | ---------------|----------------------------------------------------------------------|-----------
@@ -87,6 +87,48 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `style`        | Realiza mudanças na aparência, sem alterar a funcionalidade.         | `style: add EFFECTNAME to COMPONENT`
 | `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.         | `refactor: refactor at CLASSNAME`
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
+
+
+
+# GA | Resumos Git e Github
+
+Respositório para armazenar resumos sobre o git e github do curso versionamento de código com git e github. [Digital Innovation One](https://web.dio.me/)
+
+## 📓Documentação
+- [Documentação Git](https://git-scm.com/doc)
+- [Documentação Github](https://docs.github.com/)
+
+## Resumos das Aulas
+
+| Aulas | Resumos |
+|-------|---------|
+|Gravando alterações no Respositório Local | [Resumos]() |
+
+```
+git init
+```
+
+## 🔍Referências
+
+- [Digital é um curso top]()
+
+| Comandos Git | Resumo |
+|-------|---------|
+| cd + nome | abre pasta |
+| cd .. | volta uma pasta |
+| cd ../.. | volta várias pastas |
+| mkdir | cria uma pasta |
+|git clone | clona o Repositório |
+| git status | verifica o status do Repositório |
+| git add . | prepara todas as alterações para serem commitadas |
+| git add +nome do arquivo | prepara o arquivo para ser commitado |
+| git commit -m "nome do commit" | faz o commit |
+| rm -rf +nome da pasta ou arquivo | deleta |
+| ls | lista os arquivos da pasta |
+| ls -a | lista todos os arquivos da pasta incluindo os oculos |
+| git log | lista todos os commit e mostra seu respectivo hash |
+| touch +pasta/arquivo | cria pastas e arquivos em sequencia |
+| git reflog | histórico de commit completo |
 
 
 ## Referências
